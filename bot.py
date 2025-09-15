@@ -13,3 +13,5 @@ if __name__ == "__main__":
     user_message = sys.stdin.read().strip()
     result = process_message(user_message)
     print(json.dumps(result))
+
+
